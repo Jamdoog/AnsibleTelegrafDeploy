@@ -1,0 +1,6 @@
+---
+- name: Deploy Telegraf
+  hosts: all
+  become: true
+  roles:
+    - jamdoog.telegraf
